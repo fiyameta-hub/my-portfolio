@@ -2,12 +2,12 @@ import React from "react";
 
 const Skills = () => {
   const skills = [
-    { id: 1, title: "HTML", icon: "devicon-html5-plain colored", level: 90, color: "#F16529" },
-    { id: 2, title: "CSS", icon: "devicon-css3-plain colored", level: 80, color: "#2965F1" },
-    { id: 3, title: "JavaScript", icon: "devicon-javascript-plain colored", level: 75, color: "#F7DF1E" },
-    { id: 4, title: "React", icon: "devicon-react-original colored", level: 85, color: "#61DAFB" },
-    { id: 5, title: "Tailwind", icon: "devicon-tailwindcss-plain colored", level: 80, color: "#06B6D4" },
-    { id: 6, title: "MySQL", icon: "devicon-mysql-plain colored", level: 60, color: "#4479A1" },
+    { id: 1, title: "HTML",  level: 90, color: "#F16529" },
+    { id: 2, title: "CSS",  level: 80, color: "#2965F1" },
+    { id: 3, title: "JavaScript", level: 75, color: "#F7DF1E" },
+    { id: 4, title: "React", level: 85, color: "#61DAFB" },
+    { id: 5, title: "Tailwind", level: 80, color: "#06B6D4" },
+    { id: 6, title: "MySQL", level: 60, color: "#4479A1" },
   ];
 
   return (

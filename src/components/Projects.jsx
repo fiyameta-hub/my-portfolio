@@ -95,7 +95,7 @@ const Projects = () => {
                 <p className="dark:text-white/70 text-black mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
-                    <span key={techIndex} className="px-3 py-1 text-sm dark:bg-white/10 text-black rounded-full dark:bg-black/90 bg-white">
+                    <span key={techIndex} className="px-3 py-1 text-sm dark:bg-white/10 dark:text-white text-black rounded-full  ">
                       {tech}
                     </span>
                   ))}
