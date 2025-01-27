@@ -8,7 +8,7 @@ const About = () => {
       <div className="mx-auto px-6 relative">
         <div className="text-center">
           <TypeAnimation
-            className=" md:text-6xl lg:text-7xl  text-4xl font-bold dark:text-[#FFFFA9] text-black mb-6 fo font-mono"
+            className=" md:text-6xl lg:text-7xl  text-3xl font-bold dark:text-[#FFFFA9] text-black mb-6 fo font-mono"
             sequence={["HELLO, I am Flem Berhanu", 1000, " ", 500]}
             speed={50}
             deleteSpeed={50}
